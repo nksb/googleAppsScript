@@ -1,7 +1,7 @@
 function retrieveTextDataFromPDF() {
 
   // update PDF File URL
-  // You can also pull PDFs from Google Drive
+  // need to input "URL". need to upload the file on web server.
   var url = "XXXX.pdf";
 
   var blob = UrlFetchApp.fetch(url).getBlob();
